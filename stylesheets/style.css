@@ -1,0 +1,106 @@
+/* reset browser styles */
+
+* {
+    box-sizing: border-box; 
+  }
+
+html, body, div, h1, h2, h3, h4, h5, h6, p, a, article,
+aside, footer, header, menu, nav, section
+ {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+
+/* main styling for the site */
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  color: #333333;
+}
+
+a {
+  color: #184a73;
+}
+
+a:hover {
+  color: #343f4d;
+  text-decoration: underline;
+}
+
+
+/* style the header */
+
+header {
+    width: 100%;
+    background-color: bisque;
+    display: block;
+    margin-top: 1%;
+}
+
+header #logo {
+    width: 55%;
+    float: left;
+    background-color: goldenrod;
+    text-align: center;
+}
+
+header #logo img {
+    width: 70%;
+    margin: 2%;
+}
+
+
+/* style the navigation */
+
+nav {
+  float: right;
+  margin: 2%;
+  width: 40%;
+}
+
+ul#menu li {
+  display: inline;
+  list-style-type: none;
+  font-size: 1.4em;
+  margin-left: 10%;
+  font-weight: bold;
+}
+
+
+/* style the mainpage */
+
+#mainpage {
+  width: 100%;
+  background-color: gainsboro;
+  display: block;
+  clear: both;
+}
+
+
+/* style the main content */
+
+#maincontent {
+  width: 55%;
+  background-color: lightcyan;
+  float: left;
+  margin: 2%;
+}
+
+
+/* style the sidebar */
+
+#sidebar {
+  width: 35%;
+  background-color: lightcyan;
+  float: right;
+  margin: 2%;
+
+}
+
