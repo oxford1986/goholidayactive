@@ -5,7 +5,7 @@
   }
 
 html, body, div, h1, h2, h3, h4, h5, h6, p, a, article,
-aside, footer, header, menu, nav, section
+aside, footer, header, menu, nav, main, section
  {
     margin: 0;
     padding: 0;
@@ -74,9 +74,9 @@ ul#menu li {
 }
 
 
-/* style the mainpage */
+/* style the main */
 
-#mainpage {
+main {
   width: 100%;
   background-color: gainsboro;
   display: block;
