@@ -5,7 +5,7 @@
   }
 
 html, body, div, h1, h2, h3, h4, h5, h6, p, a, article,
-aside, footer, header, menu, nav, main, section
+aside, footer, header, menu, nav, main, section, form
  {
     margin: 0;
     padding: 0;
@@ -41,7 +41,6 @@ header {
     width: 100%;
     background-color: bisque;
     display: block;
-    margin-top: 1%;
 }
 
 header #logo {
@@ -73,6 +72,80 @@ ul#menu li {
   font-weight: bold;
 }
 
+/* style the form section */
+#form {
+  width: 100%;
+  background-color: burlywood;
+  display: block;
+  clear: both;
+}
+
+#form form {
+  padding: 2% 2% 2% 5%;
+}
+
+#form .formboxes {
+  position: relative;
+  display: inline-block;
+  width: 70%;
+}
+
+#form input[type=text] {
+  background-color: #f1f1f1;
+  width: 40%;
+  padding: 5px;
+  font-size: 1.1em;
+  border: 1px solid transparent;
+  margin-left: 5px;
+}
+
+#form select {
+  background-color: #f1f1f1;
+  width: 40%;
+  padding: 4px;
+  font-size: 1.1em;
+  border: 1px solid transparent;
+}
+
+button#getData {
+  background-color: #51aa3A;
+  color: #fff;
+  border: 1px solid transparent;
+  padding: 5px;
+  font-size: 1.1em;
+  margin-left: 5px;
+}
+
+.autocomplete-items {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  /*position the autocomplete items to be the same width as the container:*/
+  top: 100%;
+  left: 0;
+  right: 0;
+  width: 40%;
+}
+
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff; 
+  border-bottom: 1px solid #d4d4d4; 
+}
+
+.autocomplete-items div:hover {
+  /*when hovering an item:*/
+  background-color: #bfffbf; 
+}
+
+.autocomplete-active {
+  /*when navigating through the items using the arrow keys:*/
+  background-color: #95ff95 !important; 
+  color: #000000; 
+} 
 
 /* style the main */
 
@@ -86,11 +159,16 @@ main {
 
 /* style the main content */
 
-#maincontent {
+#content {
   width: 55%;
   background-color: lightcyan;
   float: left;
   margin: 2%;
+}
+
+#content h1 {
+  font-size: 1.5em;
+  line-height: 2;
 }
 
 
@@ -101,6 +179,5 @@ main {
   background-color: lightcyan;
   float: right;
   margin: 2%;
-
 }
 

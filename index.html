@@ -20,14 +20,29 @@
             </ul>
         </nav>
     </header>
+    <section id="formsection">
+        <form method="post" action="http://localhost/form1/redirect.php" autocomplete="off">
+            <div class="formboxes">
+            <select name="category">
+                <option value="cycling-holidays">Cycling</option>
+                <option value="walking-holidays">Walking</option>
+                <option value="walking-holidays">Wanking</option>
+            </select>
+            <input type="text" id="region" name="region" placeholder="Enter country or region">
+                <button id="getData">GO!</button>
+            </div>
+        </form>
+    </section>
     <main>
-        <div id="maincontent">
+        <section id="content">
+            <h1>Go Holiday Active</h1>
             <p>This is the main text</p>
-        </div>
+        </section>
         <aside id="sidebar">
             <p>This is the sidebar</p>
         </aside>
     </main>
+    <script src="javascript/code.js"></script>
 </body>
 </html>
   
