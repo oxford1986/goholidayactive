@@ -90,7 +90,7 @@ ul#menu li {
   padding: 5px;
   font-size: 1.1em;
   border: 1px solid transparent;
-  margin-left: 5px;
+  margin-left: 10px;
   float: left;
 }
 
@@ -109,7 +109,7 @@ button#getData {
   border: 1px solid transparent;
   padding: 5px;
   font-size: 1.1em;
-  margin-left: 5px;
+  margin-left: 10px;
 }
 
 
