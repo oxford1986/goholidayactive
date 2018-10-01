@@ -22,15 +22,14 @@
     </header>
     <section id="formsection">
         <form method="post" action="http://localhost/form1/redirect.php" autocomplete="off">
-            <div class="formboxes">
-            <select name="category">
+            <select name="category" id="category">
                 <option value="cycling-holidays">Cycling</option>
                 <option value="walking-holidays">Walking</option>
                 <option value="walking-holidays">Wanking</option>
             </select>
             <input type="text" id="region" name="region" placeholder="Enter country or region">
-                <button id="getData">GO!</button>
-            </div>
+            <div id="results"></div>
+            <button id="getData">GO!</button>
         </form>
     </section>
     <main>

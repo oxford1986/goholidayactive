@@ -26,8 +26,9 @@ function autocomplete(inp, arr) {
       a.setAttribute("id", this.id + "autocomplete-list");
       a.setAttribute("class", "autocomplete-items");
        /*append the DIV element as a child of the autocomplete container:*/
-      this.appendChild(a);
-      console.log(this);
+      //this.appendChild(a);
+      document.getElementById("results").appendChild(a);
+      console.log(document.getElementById("results"))
       /*for each item in the array...*/
       for (i = 0; i < arr.length; i++) {
         /*check if the item starts with the same letters as the text field value:*/

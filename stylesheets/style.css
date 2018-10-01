@@ -73,38 +73,34 @@ ul#menu li {
 }
 
 /* style the form section */
-#form {
+#formsection {
   width: 100%;
   background-color: burlywood;
   display: block;
   clear: both;
 }
 
-#form form {
+#formsection form {
   padding: 2% 2% 2% 5%;
 }
 
-#form .formboxes {
-  position: relative;
-  display: inline-block;
-  width: 70%;
-}
-
-#form input[type=text] {
+#formsection input[type=text] {
   background-color: #f1f1f1;
-  width: 40%;
+  width: 20%;
   padding: 5px;
   font-size: 1.1em;
   border: 1px solid transparent;
   margin-left: 5px;
+  float: left;
 }
 
-#form select {
+#formsection select {
   background-color: #f1f1f1;
-  width: 40%;
+  width: 20%;
   padding: 4px;
   font-size: 1.1em;
   border: 1px solid transparent;
+  float: left;
 }
 
 button#getData {
@@ -146,6 +142,7 @@ button#getData {
   background-color: #95ff95 !important; 
   color: #000000; 
 } 
+
 
 /* style the main */
 
