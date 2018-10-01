@@ -27,8 +27,13 @@
                 <option value="walking-holidays">Walking</option>
                 <option value="walking-holidays">Wanking</option>
             </select>
-            <input type="text" id="region" name="region" placeholder="Enter country or region">
-            <div id="results"></div>
+            <input type="text" id="region" name="region" list="regions" placeholder="Enter country or region">
+            <datalist id="regions">
+                <option value="france">
+                <option value="spain">
+                <option value="italy">
+            </datalist>
+            
             <button id="getData">GO!</button>
         </form>
     </section>
